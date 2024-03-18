@@ -1,6 +1,6 @@
 import React from "react";
 import Slider from "../Components/Slider";
-import Who from "../Components/Who";
+import Who from "../Components/WhoWeAre";
 
   const Home = () => {
     const imagesURL = [

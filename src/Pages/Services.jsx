@@ -2,8 +2,8 @@ import React from 'react'
 
 const Services = () => {
   return (
-    <div>
-      
+    <div className='font-16px'>
+      Hello
     </div>
   )
 }
