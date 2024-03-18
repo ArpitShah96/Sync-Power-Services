@@ -12,10 +12,11 @@ const Header = () => {
           <img
             className="w-20 h-20"
             src="https://www.sync-power.com/jpg/logo-construction2.png"
-            alt=""
+            alt="Sync-Power-Services-Logo"
           />
         </NavLink>
 
+        {/* Menu-Left */}
         {/* Hamburgur Menu */}
         <div
           onClick={() => setOpen(!open)}
@@ -27,9 +28,11 @@ const Header = () => {
             <GiHamburgerMenu size={"1.8rem"} />
           )}
         </div>
+        
+        {/* Menu-Right */}
         {/* Navlinks */}
         <div
-          className={`flex md:flex-row pt-5 sm:mt-0 md:items-center z-[-1] md:z-auto  w-full md:w-max left-0  bg-zinc-100 absolute md:static gap-5 flex-col transition-all duration-500 ease-in ${
+          className={`font-18px flex md:flex-row pt-5 sm:mt-0 md:items-center z-[-1] md:z-auto  w-full md:w-max left-0  bg-zinc-100 absolute md:static gap-5 flex-col transition-all duration-500 ease-in ${
             open ? "top-20 " : "top-[-490px]"
           }`}
         >
@@ -64,7 +67,7 @@ const Header = () => {
               to={item.path}
               onClick={() => setOpen(!open)}
               className={({ isActive }) => {
-                return `md:text-sm text-base text-center md:text-left font-bold tracking-tight font-['open_sans'] ${
+                return `md:font-18px text-center md:text-left font-bold tracking-tight font-['open_sans'] ${
                   isActive ? "text-orange-400" : "text-zinc-900"
                 } hover:text-white hover:bg-orange-400 px-2 py-2`;
               }}
@@ -72,9 +75,9 @@ const Header = () => {
               {item.text}
             </NavLink>
           ))}
-          <div className="text-center pb-2 md:mb-0 md:text-left">
-            <button className=" md:ml-5 md:px-6 md:py-2 px-3 py-1 w-max h-min font-['open_sans'] text-white bg-orange-400 rounded hover:bg-white border border-orange-500 hover:text-orange-500">
-              Login / Sign Up
+          <div className="text-centre pb-2 md:mb-0 md:text-left">
+            <button className="md:ml-5 md:px-6 md:py-2 px-3 py-1 w-max h-min font-['open_sans'] text-white bg-orange-400 rounded hover:bg-white border border-orange-400 hover:text-orange-400">
+              Login/SignUp
             </button>
           </div>
         </div>
