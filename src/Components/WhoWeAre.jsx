@@ -5,11 +5,11 @@ const WhoWeAre = () => {
   return (
     <div className="w-full py-8 ">
       <div className="max-w-screen-xl px-4 md:px-0 gap-5 m-auto md:flex-row flex-col bg-white flex py-16 justify-around">
-        <h1 className="md:w-1/3  w-full font-thin text-3xl font-['open_sans'] text-zinc-800">
+        <h1 className="md:w-1/3  w-full font-thin text-3xl text-zinc-800">
           Who We Are?
         </h1>
         <div className="md:w-[66%] w-full ">
-          <p className="font-['open_sans'] mb-5 text-justify sm:text-16 text-18 leading-6 sm:leading-7 font-thin tracking-tight">
+          <p className="font-16px mb-5 text-justify sm:text-16 text-18 leading-6 sm:leading-7 font-thin tracking-tight">
             Sync-Power Services Inc. is your all-in-one destination for
             comprehensive power solutions. As an engineering and service company
             specializing in critical and emergency power management, we offer a

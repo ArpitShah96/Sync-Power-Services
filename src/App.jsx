@@ -7,10 +7,10 @@ function App() {
   return (
     <div>
       <Header />
-      {/* <Outlet />
-      <Footer /> */}
+      <Outlet />
+      <Footer />
     </div>
   );
 }
 
-export default App;
+export default App
